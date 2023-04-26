@@ -1,8 +1,8 @@
-# ev-charging-stations-kaggle
+# setup-kaggle-api-environment
 
-# 🚀 Download via Kaggle API the EV Charging Stations dataset 🚀
+# 🚀 Setup the Kaggle API Environment for accessing datasets and competitions 🚀
 
-https://github.com/coding-to-music/ev-charging-stations-kaggle
+https://github.com/coding-to-music/setup-kaggle-api-environment
 
 
 From / By 
@@ -14,6 +14,8 @@ https://github.com/Kaggle/kaggle-api/blob/main/README.md
 
 ```java
 kaggle.json is needed, see below
+
+store in ~/.kaggle
 ```
 
 ## GitHub
@@ -24,8 +26,14 @@ git add .
 git remote remove origin
 git commit -m "first commit"
 git branch -M main
-git remote add origin git@github.com:coding-to-music/ev-charging-stations-kaggle.git
+git remote add origin git@github.com:coding-to-music/setup-kaggle-api-environment.git
 git push -u origin main
+```
+
+## Get the dataset via the api
+
+```
+kaggle datasets download -d saketpradhan/electric-and-alternative-fuel-charging-stations
 ```
 
 # how to download via Kaggle API the dataset
