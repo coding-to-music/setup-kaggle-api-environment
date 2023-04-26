@@ -15,7 +15,7 @@ https://github.com/Kaggle/kaggle-api/blob/main/README.md
 ```java
 kaggle.json is needed, see below
 
-store in ~/.kaggle
+store in ~/.kaggle/kaggle.json
 ```
 
 ## GitHub
